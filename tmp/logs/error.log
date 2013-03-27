@@ -523,3 +523,729 @@ Request URL: /dev/cal/dev/
 Stack Trace:
 #0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-03-22 08:40:31 Error: [MissingActionException] Action UsersController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/users/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:33 Error: [MissingActionException] Action GroupsController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/groups/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:34 Error: [MissingActionException] Action RulesController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'RulesController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/rules/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RulesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:38 Error: [MissingActionException] Action UsersController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/users/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:39 Error: [MissingActionException] Action GroupsController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/groups/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:39 Error: [MissingActionException] Action RulesController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'RulesController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/rules/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RulesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:40 Error: [MissingActionException] Action UsersController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/users/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:41 Error: [MissingActionException] Action GroupsController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/groups/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:41 Error: [MissingActionException] Action RulesController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'RulesController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/rules/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RulesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:43 Error: [MissingActionException] Action GroupsController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/groups/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:44 Error: [MissingActionException] Action UsersController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/cal/authake/users/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 08:40:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/cal/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 08:40:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/cal/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\cal\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 09:39:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 09:39:53 Error: [MissingActionException] Action UsersController::index_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index_ajax',
+)
+Request URL: /dev/widgets/authake/users/index_ajax
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 09:39:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 11:14:26 Error: [MissingControllerException] Controller class Authake2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Authake2Controller',
+  'plugin' => 'Authake2',
+)
+Request URL: /dev/widgets/authake2
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 11:17:26 Error: [MissingDatasourceConfigException] The datasource configuration "authake" was not found in database.php
+Exception Attributes: array (
+  'config' => 'authake',
+)
+Request URL: /dev/widgets/authake
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\ConnectionManager.php(95): ConnectionManager::_getConnectionObject('authake')
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3209): ConnectionManager::getDataSource('authake')
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(1108): Model->setDataSource('authake')
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('authake_groups')
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#5 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\AuthakeController.php(27): Model->find('all', Array)
+#6 [internal function]: AuthakeController->index()
+#7 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(AuthakeController), Array)
+#8 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AuthakeController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-03-22 11:20:09 Error: [MissingTableException] Table authake_authake_groups for model Group was not found in datasource authake2.
+Exception Attributes: array (
+  'table' => 'authake_authake_groups',
+  'class' => 'Group',
+  'ds' => 'authake2',
+)
+Request URL: /dev/widgets/authake
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('authake_groups')
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\AuthakeController.php(27): Model->find('all', Array)
+#3 [internal function]: AuthakeController->index()
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(AuthakeController), Array)
+#5 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AuthakeController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-03-22 11:36:09 Error: [MissingDatasourceConfigException] The datasource configuration "authake" was not found in database.php
+Exception Attributes: array (
+  'config' => 'authake',
+)
+Request URL: /dev/widgets/authake/rules
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\ConnectionManager.php(95): ConnectionManager::_getConnectionObject('authake')
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3209): ConnectionManager::getDataSource('authake')
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(1108): Model->setDataSource('authake')
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('authake_rules')
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#5 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\RulesController.php(26): Model->find('all')
+#6 [internal function]: RulesController->index()
+#7 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(RulesController), Array)
+#8 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RulesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-03-22 11:36:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 11:38:52 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /dev/widgets/authake/rules
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Datasource\DboSource.php(262): Sqlite->connect()
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\ConnectionManager.php(102): DboSource->__construct(Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3209): ConnectionManager::getDataSource('authake2')
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(1108): Model->setDataSource('authake2')
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('authake_rules')
+#5 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#6 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\RulesController.php(26): Model->find('all')
+#7 [internal function]: RulesController->index()
+#8 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(RulesController), Array)
+#9 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RulesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-03-22 12:44:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/css/jquery.ui.min.css
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 15:14:59 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 15:14:59 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 15:43:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 15:43:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 09:35:31 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 130]
+2013-03-25 09:35:31 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/authake/
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 130, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 130, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 09:37:27 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 131]
+2013-03-25 09:37:27 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/authake/
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 09:38:17 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 131]
+2013-03-25 09:38:17 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/authake/rules
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 09:41:45 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 131]
+2013-03-25 09:41:45 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/authake/rules
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 131, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 09:50:57 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 09:50:57 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 09:51:42 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/pass%5B0%5D:ico/pass%5B1%5D:favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 09:51:42 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 132]
+2013-03-25 09:51:42 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/authake/user/img/pass%5B0%5D:ico/pass%5B1%5D:favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 132, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 132, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 10:05:13 Error: [MissingViewException] View file "D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\View\Authake\reset.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Disk-E\\Domains\\Siti\\nospace\\h2o.nospace.net\\dev\\widgets\\Plugin\\Authake\\View\\Authake\\reset.ctp',
+)
+Request URL: /dev/widgets/authake/authake/reset
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AuthakeController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-25 10:07:27 Error: [MissingViewException] View file "D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\View\Authake\reset.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Disk-E\\Domains\\Siti\\nospace\\h2o.nospace.net\\dev\\widgets\\Plugin\\Authake\\View\\Authake\\reset.ctp',
+)
+Request URL: /dev/widgets/authake/authake/reset
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AuthakeController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-25 10:10:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 10:10:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 10:28:45 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/logout
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 11:16:39 Error: Fatal Error (1): Call to undefined method AuthakeComponent::useDefaultLayout() in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\UserController.php, line 477]
+2013-03-25 11:16:39 Error: [FatalErrorException] Call to undefined method AuthakeComponent::useDefaultLayout()
+Request URL: /dev/widgets/authake/user/login
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\Disk-E\Domai...', 477)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\Disk-E\Domai...', 477, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\Disk-E\Domai...', 477, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 11:19:52 Error: Fatal Error (1): Cannot use object of type stdClass as array in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\UserController.php, line 478]
+2013-03-25 11:19:52 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /dev/widgets/authake/user/login
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 11:22:25 Error: Fatal Error (1): Cannot use object of type stdClass as array in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\UserController.php, line 478]
+2013-03-25 11:22:25 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /dev/widgets/authake/user/login
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\Disk-E\Domai...', 478, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 11:34:09 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 11:34:09 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 11:34:26 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/pass%5B0%5D:ico/pass%5B1%5D:favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 11:34:27 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/pass%5B0%5D:ico/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 11:34:27 Error: [MissingActionException] Action UserController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'img',
+)
+Request URL: /dev/widgets/authake/user/img/pass%5B0%5D:ico/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-25 11:45:46 Error: Fatal Error (1): Unsupported operand types in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php, line 171]
+2013-03-25 11:45:46 Error: [FatalErrorException] Unsupported operand types
+Request URL: /dev/widgets/
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 171)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 171, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\Disk-E\Domai...', 171, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-25 11:50:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 11:50:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Authake',
+)
+Request URL: /dev/widgets/authake/img/ico/favicon.png
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-25 15:53:53 Error: Fatal Error (1): Cannot pass parameter 2 by reference in [D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Controller\AppController.php, line 35]
+2013-03-25 15:53:53 Error: [FatalErrorException] Cannot pass parameter 2 by reference
+Request URL: /dev/widgets/cakemenu
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot pass par...', 'D:\Disk-E\Domai...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot pass par...', 'D:\Disk-E\Domai...', 35, Array)
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot pass par...', 'D:\Disk-E\Domai...', 35, Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-27 11:49:55 Error: [MissingDatasourceConfigException] The datasource configuration "authake" was not found in database.php
+Exception Attributes: array (
+  'config' => 'authake',
+)
+Request URL: /dev/widgets/
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\ConnectionManager.php(95): ConnectionManager::_getConnectionObject('authake')
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3209): ConnectionManager::getDataSource('authake')
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(1108): Model->setDataSource('authake')
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('authake_rules')
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#5 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Model\Rule.php(42): Model->find('all', Array)
+#6 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php(242): Rule->getRules(NULL, true)
+#7 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php(257): AuthakeComponent->getRules(NULL)
+#8 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Authake\Controller\Component\AuthakeComponent.php(158): AuthakeComponent->isAllowed(Array)
+#9 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Controller\AppController.php(34): AuthakeComponent->beforeFilter(Object(PagesController))
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#12 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#14 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-03-27 11:49:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:49:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:55:42 Error: [MissingTableException] Table cakemenu for model Menu was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cakemenu',
+  'class' => 'Menu',
+  'ds' => 'default',
+)
+Request URL: /dev/widgets/
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(3231): Model->setSource('cakemenu')
+#1 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Model\Model.php(2688): Model->getDataSource()
+#2 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Cakemenu\Controller\Component\CakemenuComponent.php(189): Model->find('threaded', Array)
+#3 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Plugin\Cakemenu\Controller\Component\CakemenuComponent.php(91): CakemenuComponent->_fetch(Array)
+#4 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\Controller\AppController.php(35): CakemenuComponent->nodes(Array, Object(AuthakeComponent))
+#5 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#6 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#7 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#8 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#9 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\.library\cake\2.3.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-03-27 11:55:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:57:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:57:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:57:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:58:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:58:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 11:59:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 12:00:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 12:00:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 12:02:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-27 12:02:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /dev/widgets/js/bootstrap/twitter-bootstrap-hover-dropdown.js
+Stack Trace:
+#0 D:\Disk-E\Domains\Siti\nospace\h2o.nospace.net\dev\widgets\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

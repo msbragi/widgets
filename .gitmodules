@@ -1,0 +1,9 @@
+[submodule "Plugin/FullCalendar"]
+	path = Plugin/FullCalendar
+	url = D:/Disk-E/Domains/Siti/nospace/h2o.nospace.net/.library/cake/Plugins/FullCalendar.git
+[submodule "Plugin/Authake"]
+	path = Plugin/Authake
+	url = D:/Disk-E/Domains/Siti/nospace/h2o.nospace.net/.library/cake/Plugins/Authake.git
+[submodule "Plugin/Cakemenu"]
+	path = Plugin/Cakemenu
+	url = D:/Disk-E/Domains/Siti/nospace/h2o.nospace.net/.library/cake/Plugins/Cakemenu.git

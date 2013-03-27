@@ -1,3 +1,10 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+td.actions .btn { margin-left: 3px; min-width: 30px; }
+.breadcrumb { margin: 0; padding: 10px 0px}
+div.breadcrumb { padding: 0; }
+
 /* Body and structure
 -------------------------------------------------- */
 
@@ -220,7 +227,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
     border-bottom: 1px solid #ddd;
 }
 .subhead h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 .subhead p {
     margin-bottom: 20px;
@@ -825,4 +832,22 @@ ul#icons span.ui-icon {
 /* gmap3 */
 #gmap3,.gmap3{
     height: 350px;
+}
+
+/* Cakemenu
+  ----------------------------- */
+table.cakemenu span.indent {
+	color: #D7D7D7;
+	font-weight: bold;
+	margin-right: 5px;	
+}
+
+table.cake-sql-log {
+	margin-top: 50px;
+}
+
+table.cake-sql-log caption {
+	text-align: right;
+	font-style: italic;
+	font-weight: bolder;
 }

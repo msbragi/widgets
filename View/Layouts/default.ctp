@@ -68,6 +68,7 @@
 		array(
 			'jQuery/jquery-1.9.1.js',
 			'bootstrap/bootstrap.js',
+			'bootstrap/twitter-bootstrap-hover-dropdown.js',
 			'holder.js',
 			'jQuery/jquery-ui-1.10.2.custom.js',
 			'jQuery/jquery.ui.datepicker-it.js',
@@ -89,26 +90,51 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
 	<link rel="shortcut icon" href="img/ico/favicon.png">
-	<style>
-		#calendar {
-			width: 900px;
-			margin: 0 auto;
-		}
-	</style>
+<?php
+	/*
+	 * Fetch columns frames
+	 */
+	$sidebar = $this->fetch('sidebar');
+	$content = $this->fetch('content');
+?>
 </head>
-<body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+<body data-twttr-rendered="true">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand push-right" href="/">UI-Bootstrap</a>
+				<?php echo @$this->Cakemenu->generate($menu); ?>
+			</div>
+		</div>
+	</div>
 
-	<?php echo $this->fetch('mainnav'); ?>
 	<?php echo $this->fetch('header');  ?>
+
+	<div class="breadcrumb">
+		<div class="container">
+			<?php echo $this->Cakemenu->getCrumb();  ?>
+		</div>
+	</div>
 
 	<div class="container">
 		<section id="content">
-			<?php echo $this->Session->flash(); ?>
-			<?php echo $this->fetch('content'); ?>
+			<?php
+				echo $this->Session->flash();
+				if($sidebar) {
+					echo "<div class='row'><div class='span3'>";
+						echo $sidebar;
+					echo "</div><div class='span9'>";
+						echo $content;
+					echo "</div>";
+				} else {
+					echo $content;
+				}
+			?>
 		</section>
 	</div>
-
 	<?php echo $this->fetch('footer');  ?>
-	<?php echo $this->element('sql_dump'); ?>
+	<div class="container">
+		<?php echo $this->element('sql_dump'); ?>
+	</div>
 </body>
 </html>

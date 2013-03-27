@@ -21,28 +21,20 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 App::uses('Controller', 'Controller');
-
-/**
- * Application Controller
- *
- * Add your application-wide methods in the class below, your controllers
- * will inherit them.
- *
- * @package		app.Controller
- * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
- */
 class AppController extends Controller {
-	var $components = array('Session', 'RequestHandler');
-	var $helpers = array(
-		'Session',
-		'Time',
-		'Paginator' => array(
-			'className' => 'BootstrapPaginator'
-		),
-		'Html' => array(
-			'className' => 'BootstrapHtml'
-		),
-		'Form' => array(
-			'className' => 'BootstrapForm'
-		));
+	var $components = array('Session', 'Authake.Authake', 'Cakemenu.Cakemenu', 'RequestHandler');
+	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake',
+			'Cakemenu.Cakemenu' => array('className' => 'Cakemenu.Strapmenu'),
+			'Paginator'         => array('className' => 'BootstrapPaginator'),
+			'Html'              => array('className' => 'BootstrapHtml'),
+			'Form'              => array('className' => 'BootstrapForm')
+	);
+
+	function beforeFilter(){
+		$this->Authake->beforeFilter($this);
+		$menu = $this->Cakemenu->nodes(array(), $this->Authake);
+		$menu = $this->Cakemenu->removeKey($menu, 'display', $this->Authake->getUserId() ? 1 : 2);
+		$this->set('menu', $menu);
+	}
+
 }

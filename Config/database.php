@@ -23,14 +23,22 @@ class DATABASE_CONFIG {
 		'encoding' => 'utf8',
 	);
 
-	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+	public $cakemenu = array(
+		'datasource' => 'Database/Sqlite',
+		'database'   => '',
+		'persistent' => false
 	);
+
+	public $authake2 = array(
+		'datasource' => 'Database/Sqlite',
+		'database'   => '',
+		'persistent' => false,
+		'prefix'     => ''
+	);
+
+	function __construct() {
+		$this->authake2['database'] = APP .DS. 'Plugin' .DS. 'Authake'  .DS. 'SQLite' .DS. 'authake2.sqlite';
+		$this->cakemenu['database'] = APP .DS. 'Plugin' .DS. 'Cakemenu' .DS. 'SQLite' .DS. 'cakemenu.sqlite';
+	}
+
 }
