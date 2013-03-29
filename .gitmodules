@@ -1,6 +1,6 @@
 [submodule "Plugin/FullCalendar"]
 	path = Plugin/FullCalendar
-	url = https://github.com/msbragi/CakePHP-Full-Calendar-Plugin.git
+	url = https://github.com/msbragi/fullcalendar.git
 [submodule "Plugin/Authake"]
 	path = Plugin/Authake
 	url = https://github.com/msbragi/authake.git
