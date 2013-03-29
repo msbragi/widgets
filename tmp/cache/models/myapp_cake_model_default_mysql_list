@@ -1,2 +1,0 @@
-1364381752
-a:24:{i:0;s:12:"columns_priv";i:1;s:2:"db";i:2;s:5:"event";i:3;s:4:"func";i:4;s:11:"general_log";i:5;s:13:"help_category";i:6;s:12:"help_keyword";i:7;s:13:"help_relation";i:8;s:10:"help_topic";i:9;s:4:"host";i:10;s:16:"ndb_binlog_index";i:11;s:6:"plugin";i:12;s:4:"proc";i:13;s:10:"procs_priv";i:14;s:7:"servers";i:15;s:8:"slow_log";i:16;s:11:"tables_priv";i:17;s:9:"time_zone";i:18;s:21:"time_zone_leap_second";i:19;s:14:"time_zone_name";i:20;s:20:"time_zone_transition";i:21;s:25:"time_zone_transition_type";i:22;s:4:"user";i:23;s:9:"user_info";}

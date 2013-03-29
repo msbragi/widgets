@@ -1,6 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+td.actions { white-space: nowrap; }
 td.actions .btn { margin-left: 3px; min-width: 30px; }
 .breadcrumb { margin: 0; padding: 10px 0px}
 div.breadcrumb { padding: 0; }
