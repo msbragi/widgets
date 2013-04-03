@@ -32,9 +32,9 @@ class DATABASE_CONFIG {
 	);
 
 	function __construct() {
-		$this->authake2['database'] = APP .DS. 'Plugin' .DS. 'Authake'      .DS. 'SQLite' .DS. 'authake2.sqlite';
-		$this->cakemenu['database'] = APP .DS. 'Plugin' .DS. 'Cakemenu'     .DS. 'SQLite' .DS. 'cakemenu.sqlite';
-		$this->calendar['database'] = APP .DS. 'Plugin' .DS. 'FullCalendar' .DS. 'SQLite' .DS. 'fullcalendar.sqlite';
+		$this->authake2['database'] = APP .DS. 'SQLite' .DS. 'authake2.sqlite';
+		$this->cakemenu['database'] = APP .DS. 'SQLite' .DS. 'cakemenu.sqlite';
+		$this->calendar['database'] = APP .DS. 'SQLite' .DS. 'fullcalendar.sqlite';
 	}
 
 }
