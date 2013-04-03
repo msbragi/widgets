@@ -37,6 +37,8 @@
 			'smoothness/jquery-ui.min.css',
 			'ui-bootstrap/bootstrap.min',
 			'ui-bootstrap/jquery-ui-1.10.1.custom',
+			'jquery-ui-timepicker-addon',
+			'jquery.qtip.min',
 			'font-awesome.min'
 		)
 	);
@@ -71,8 +73,12 @@
 			'bootstrap/twitter-bootstrap-hover-dropdown.js',
 			'holder.js',
 			'jQuery/jquery-ui-1.10.2.custom.js',
-			'jQuery/jquery.ui.datepicker-it.js',
+			'jQuery/jquery-ui-datepicker-it.js',
+			'jQuery/jquery-ui-sliderAccess.js',
+			'jQuery/jquery-ui-timepicker-addon.js',
+			'jQuery/jquery-ui-timepicker-it.js',
 			'jQuery/fullcalendar/fullcalendar.js',
+			'jQuery/jquery.qtip.js',
 			'gc-prettify/prettify.js',
 			'custom.js'
 		)
