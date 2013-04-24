@@ -7,3 +7,6 @@
 [submodule "Plugin/Cakemenu"]
 	path = Plugin/Cakemenu
 	url = https://github.com/msbragi/cakemenu.git
+[submodule "Plugin/TwitterBootstrap"]
+	path = Plugin/TwitterBootstrap
+	url = https://github.com/msbragi/TwitterBootstrap.git

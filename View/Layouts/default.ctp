@@ -100,9 +100,15 @@
 	/*
 	 * Fetch columns frames
 	 */
-	$sidebar = $this->fetch('sidebar');
 	$content = $this->fetch('content');
 ?>
+<script type="text/javascript">
+<?php echo $this->fetch('javascript'); ?>
+jQuery(function($) {
+<?php echo $this->fetch('jQuery'); ?>
+});
+</script>
+<?php ?>
 </head>
 <body data-twttr-rendered="true">
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -126,15 +132,7 @@
 		<section id="content">
 			<?php
 				echo $this->Session->flash();
-				if($sidebar) {
-					echo "<div class='row'><div class='span3'>";
-						echo $sidebar;
-					echo "</div><div class='span9'>";
-						echo $content;
-					echo "</div>";
-				} else {
-					echo $content;
-				}
+				echo $content;
 			?>
 		</section>
 	</div>

@@ -25,16 +25,28 @@ class AppController extends Controller {
 	var $components = array('Session', 'Authake.Authake', 'Cakemenu.Cakemenu', 'RequestHandler');
 	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake',
 			'Cakemenu.Cakemenu' => array('className' => 'Cakemenu.Strapmenu'),
-			'Paginator'         => array('className' => 'BootstrapPaginator'),
-			'Html'              => array('className' => 'BootstrapHtml'),
-			'Form'              => array('className' => 'BootstrapForm')
+			'Paginator'         => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
+			'Html'              => array('className' => 'TwitterBootstrap.BootstrapHtml'),
+			'Form'              => array('className' => 'TwitterBootstrap.BootstrapForm')
 	);
 
-	function beforeFilter(){
-		$this->Authake->beforeFilter($this);
-		$menu = $this->Cakemenu->nodes(array(), $this->Authake);
+	function beforeFilter() {
+		if(!$this->request->is('ajax')) {
+			$this->Authake->beforeFilter($this);
+			$this->set('menu', $this->getMenu('MainMenu'));
+		}
+	}
+	
+	function getMenu( $menuname ) {
+		$options = array(
+			'subtree' => array(
+				'name'   => $menuname,
+				'parent' => false		
+			)
+		);
+		$menu = $this->Cakemenu->nodes($options, $this->Authake);
 		$menu = $this->Cakemenu->removeKey($menu, 'display', $this->Authake->getUserId() ? 1 : 2);
-		$this->set('menu', $menu);
+		return $menu;
 	}
 
 }
