@@ -38,21 +38,31 @@
                 timeout;
 
             $this.hover(function() {
-                if(settings.instantlyCloseOthers === true)
-                    $allDropdowns.removeClass('open');
+                if(shouldHover()) {
+                    if(settings.instantlyCloseOthers === true)
+                        $allDropdowns.removeClass('open');
 
-                window.clearTimeout(timeout);
-                $(this).addClass('open');
+                    window.clearTimeout(timeout);
+                    $(this).addClass('open');
+                }
             }, function() {
-                timeout = window.setTimeout(function() {
-                    $this.removeClass('open');
-                }, settings.delay);
+                if(shouldHover()) {
+                    timeout = window.setTimeout(function() {
+                        $this.removeClass('open');
+                    }, settings.delay);
+                }
             });
         });
     };
 
-    // apply dropdownHover to all elements with the data-hover="dropdown" attribute
+    // helper function to see if we should hover
+    var shouldHover = function() { return $('#cwspear-is-awesome').height(); };
     $(document).ready(function() {
+        // apply dropdownHover to all elements with the data-hover="dropdown" attribute
         $('[data-hover="dropdown"]').dropdownHover();
+
+        // pure win here: we create these spans so we can test if we have the responsive css loaded
+        // this is my attempt to hopefully make sure the IDs are unique
+        $('<div class="nav-collapse collapse" style="display:none;" id="cwspear-is-awesome">.</div>').appendTo('body');
     });
 })(jQuery, this);

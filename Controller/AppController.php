@@ -33,15 +33,15 @@ class AppController extends Controller {
 	function beforeFilter() {
 		if(!$this->request->is('ajax')) {
 			$this->Authake->beforeFilter($this);
-			$this->set('menu', $this->getMenu('MainMenu'));
+			$this->set('menu', $this->getMenu('MainMenu', false));
 		}
 	}
-	
-	function getMenu( $menuname ) {
+
+	function getMenu( $menuname, $showParent = false ) {
 		$options = array(
 			'subtree' => array(
 				'name'   => $menuname,
-				'parent' => false		
+				'parent' => $showParent
 			)
 		);
 		$menu = $this->Cakemenu->nodes($options, $this->Authake);

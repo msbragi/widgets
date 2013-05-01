@@ -26,4 +26,18 @@ class TestController extends AppController {
 		));
 		die();
 	}
+	
+	function rule() {
+		$this->autoRender = false;
+		$url = "/full_calendar/events/upcoming/autoRender:1/return:0/bare:1/requested:1";
+		$mat = "/ or /app or /authake/user/* or /authake/login* or /pages(/)?* or /*/*/pages/* or /full_calendar(/)? or /full_calendar/index* or /full_calendar/events/feed\?* or  /full_calendar/events/upcoming/*";
+		$mat = str_replace(array('/','*', ' or '), array('\/', '.*', '|'), $mat);
+		$mat = str_replace(' ', '', $mat);
+		$mat = '\/|\/app|\/authake\/user\/.*|\/authake\/login.*|\/pages(\/)?.*|\/.*\/.*\/pages\/.*|\/full_calendar(\/)?|\/full_calendar\/index.*|\/full_calendar\/events\/feed\?.*|\/full_calendar\/events\/upcoming.*';
+		if(preg_match("/^({$mat})$/i", $url, $matches)) {
+			echo 'Matches';
+		}
+//echo 'preg_match("/^('. $mat . ')$/i", ' . $url . ', $matches);';
+var_dump($matches);	
+	}
 }

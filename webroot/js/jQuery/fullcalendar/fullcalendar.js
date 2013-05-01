@@ -1,5 +1,5 @@
 /*!
- * FullCalendar v1.6.0
+ * FullCalendar v1.6.1
  * Docs & License: http://arshaw.com/fullcalendar/
  * (c) 2013 Adam Shaw
  */
@@ -60,7 +60,7 @@ var defaults = {
 	
 	// locale
 	isRTL: false,
-	firstDay: 1,
+	firstDay: 0,
 	monthNames: ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'],
 	monthNamesShort: ['Gen','Feb','Mar','Apr','Mag','Giu','Lug','Ago','Set','Ott','Nov','Dic'],
 	dayNames: ['Domenica','Lunedi','Martedi','Mercoledi','Giovedi','Venerdi','Sabato'],
@@ -75,6 +75,7 @@ var defaults = {
 		week: 'Settimana',
 		day: 'Giorno'
 	},
+	
 	// jquery-ui theming
 	theme: false,
 	buttonIcons: {
@@ -112,7 +113,7 @@ var rtlDefaults = {
 
 ;;
 
-var fc = $.fullCalendar = { version: "1.6.0" };
+var fc = $.fullCalendar = { version: "1.6.1" };
 var fcViews = fc.views = {};
 
 
@@ -175,6 +176,7 @@ $.fn.fullCalendar = function(options) {
 function setDefaults(d) {
 	$.extend(true, defaults, d);
 }
+
 
 
 ;;
@@ -2298,7 +2300,8 @@ function BasicView(element, calendar, viewName) {
 		}
 
 		for (i=0; i<colCnt; i++) {
-			html += "<th class='fc-day-header fc-" + dayIDs[i] + " " + headerClass + "'/>";
+			cellDate = _cellDate(0, i); // a little confusing. cellDate is local variable. _cellDate is private function
+			html += "<th class='fc-day-header fc-" + dayIDs[cellDate.getDay()] + " " + headerClass + "'/>";
 		}
 
 		html += "</tr>" +
@@ -2902,13 +2905,13 @@ function AgendaDayView(element, calendar) {
 
 setDefaults({
 	allDaySlot: true,
-	allDayText: 'Giornata',
+	allDayText: 'all-day',
 	firstHour: 6,
 	slotMinutes: 30,
-	defaultEventMinutes: 60,
-	axisFormat: 'H(:mm)tt',
+	defaultEventMinutes: 120,
+	axisFormat: 'h(:mm)tt',
 	timeFormat: {
-		agenda: 'H:mm{ - H:mm}'
+		agenda: 'h:mm{ - h:mm}'
 	},
 	dragOpacity: {
 		agenda: .5

@@ -1,15 +1,46 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+table.cake-sql-log { margin-top: 50px; }
+table.cake-sql-log caption { text-align: right;	font-style: italic;	font-weight: bolder; }
 td.actions { white-space: nowrap; }
 td.actions .btn { margin-left: 3px; min-width: 30px; }
 .breadcrumb { margin: 0; padding: 10px 0px}
 div.breadcrumb { padding: 0; }
 
+/* jQueri UI overriddes
+------------------------------------------------ */
+.ui-accordion .ui-accordion-content { padding: 7px; }
+.ui-accordion .ui-accordion-content hr { margin: 5px; }
+
+/* NAVBAR Fixes for hovering & customization
+------------------------------------------------ */
+.navbar .nav .active .caret {display: none;}
+.navbar .nav > li > a { padding-left: 0px; }
+.navbar .nav > li > .dropdown-menu { left: -10px; }
+.navbar .brand {
+    color: #333333;
+    float: right;
+    font-weight: bold;
+    font-style: italic; 
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125); */
+    text-shadow: 0 1px 0 rgba(249, 249, 249, 0.3), 0 0 20px rgba(255, 255, 255, 0.4);
+    transition: all 0.2s linear 0s;
+    font-size: 20px;
+}
+.navbar .brand:hover {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
 /* FULL Calendar
 ------------------------------------------------ */
 .fc table thead {
 	font-size: 0.95em !important;
+    line-height: 30px;
 }
 
 #c-title {
@@ -40,6 +71,10 @@ body {
 h3 code {
     font-size: 14px;
     font-weight: normal;
+}
+
+.bs-small-text {
+	font-size: 12px;
 }
 
 /* Sections

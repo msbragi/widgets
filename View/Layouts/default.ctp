@@ -114,7 +114,7 @@ jQuery(function($) {
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand push-right" href="/">UI-Bootstrap</a>
+				<a class="brand pull-right" href="/">UI-Bootstrap</a>
 				<?php echo @$this->Cakemenu->generate($menu); ?>
 			</div>
 		</div>
