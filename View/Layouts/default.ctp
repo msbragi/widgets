@@ -34,9 +34,9 @@
 	 */
 	echo $this->Html->css(
 		array(
-			'smoothness/jquery-ui.min.css',
 			'ui-bootstrap/bootstrap.min',
-			'ui-bootstrap/jquery-ui-1.10.1.custom',
+			'ui-bootstrap/bootstrap-responsive.min',
+			'ui-bootstrap/jquery-ui-1.10.2.custom',
 			'jquery-ui-timepicker-addon',
 			'jquery.qtip.min',
 			'font-awesome.min'
@@ -50,7 +50,7 @@
 		<?php echo $this->Html->css('font-awesome-ie7.min'); ?>
 	<![endif]-->
 	<!--[if lt IE 9]>
-		<?php echo $this->Html->css('ui-bootstrap/jquery.ui.1.10.1.ie'); ?>
+		<?php echo $this->Html->css('ui-bootstrap/jquery.ui.1.10.2.ie'); ?>
 	<![endif]-->
 	<?php
 	/*
