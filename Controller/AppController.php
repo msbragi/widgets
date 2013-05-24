@@ -22,7 +22,13 @@
  */
 App::uses('Controller', 'Controller');
 class AppController extends Controller {
-	var $components = array('Session', 'Authake.Authake', 'Cakemenu.Cakemenu', 'RequestHandler');
+	var $components = array(
+		'Session',
+		'Authake.Authake',
+		'Cakemenu.Cakemenu',
+		'RequestHandler',
+		'DebugKit.Toolbar'
+	);
 	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake',
 			'Cakemenu.Cakemenu' => array('className' => 'Cakemenu.Strapmenu'),
 			'Paginator'         => array('className' => 'TwitterBootstrap.BootstrapPaginator'),

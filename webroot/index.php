@@ -62,7 +62,7 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /lib/Cake/Console/Templates/skel/webroot/index.php
  */
-	$cakelib = '.library' . DS . 'cake' . DS . '2.3.1' . DS . 'lib';
+	$cakelib = '.library' . DS . 'cake' . DS . '2.3.5' . DS . 'lib';
 	define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . '..' . DS . $cakelib);
 
 /**

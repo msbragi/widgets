@@ -10,3 +10,6 @@
 [submodule "Plugin/TwitterBootstrap"]
 	path = Plugin/TwitterBootstrap
 	url = https://github.com/msbragi/TwitterBootstrap.git
+[submodule "Plugin/asset_compress"]
+	path = Plugin/asset_compress
+	url = https://github.com/msbragi/asset_compress.git

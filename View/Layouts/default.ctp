@@ -138,7 +138,7 @@ jQuery(function($) {
 	</div>
 	<?php echo $this->fetch('footer');  ?>
 	<div class="container">
-		<?php echo $this->element('sql_dump'); ?>
+		<?php //echo $this->element('sql_dump'); ?>
 	</div>
 </body>
 </html>

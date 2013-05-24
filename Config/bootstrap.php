@@ -75,7 +75,8 @@ CakePlugin::load('Authake');
 CakePlugin::load('Cakemenu');
 CakePlugin::load('FullCalendar', array('bootstrap' => true));
 CakePlugin::load('TwitterBootstrap');
-//CakePlugin::load('PHPExcel');
+CakePlugin::load('PHPExcel');
+CakePlugin::load('DebugKit');
 
 /**
  * You can attach event listeners to the request lifecyle as Dispatcher Filter . By Default CakePHP bundles two filters:
