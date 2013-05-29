@@ -29,7 +29,7 @@ class AppController extends Controller {
 		'RequestHandler',
 		'DebugKit.Toolbar'
 	);
-	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake',
+	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake', 'AssetCompress.AssetCompress',
 			'Cakemenu.Cakemenu' => array('className' => 'Cakemenu.Strapmenu'),
 			'Paginator'         => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
 			'Html'              => array('className' => 'TwitterBootstrap.BootstrapHtml'),
@@ -37,10 +37,8 @@ class AppController extends Controller {
 	);
 
 	function beforeFilter() {
-		if(!$this->request->is('ajax')) {
-			$this->Authake->beforeFilter($this);
-			$this->set('menu', $this->getMenu('MainMenu', false));
-		}
+		$this->Authake->beforeFilter($this);
+		$this->set('menu', $this->getMenu('MainMenu', false));
 	}
 
 	function getMenu( $menuname, $showParent = false ) {
