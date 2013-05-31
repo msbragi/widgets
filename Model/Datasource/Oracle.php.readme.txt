@@ -1,0 +1,18 @@
+Put Oracle.php inside /lib/Cake/Model/Datasource/Database
+
+Edit database.php inside /app/Config/database.php
+
+Sample connection :
+
+public $default = array(
+	'datasource' => 'Database/Oracle',
+	'driver' => 'oracle',
+	'connect' => 'oci_pconnect',
+	'persistent' => false,
+	'host' => 'ip_address',
+	'login' => 'username',
+	'password' => 'password',
+	'database' => 'ip_address:1521/test',
+	'prefix' => '',
+	'schema' => 'schema_name'
+);
