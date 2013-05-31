@@ -34,21 +34,19 @@ if ($noLogs):
 	endforeach;
 endif;
 
-if ($noLogs || isset($_forced_from_dbo_)):
-	foreach ($logs as $source => $logInfo):
+if ($noLogs || isset($_forced_from_dbo_)) {
+	foreach ($logs as $source => $logInfo) {
 		$text = $logInfo['count'] > 1 ? 'queries' : 'query';
 		printf(
 			'<table class="cake-sql-log table-condensed table-bordered table-striped" id="cakeSqlLog_%s" summary="Cake SQL Log" cellspacing="0">',
 			preg_replace('/[^A-Za-z0-9_]/', '_', uniqid(time(), true))
 		);
 		printf('<caption>(%s) %s %s took %s ms</caption>', $source, $logInfo['count'], $text, $logInfo['time']);
-	?>
-	<thead>
-		<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>
-	</thead>
-	<tbody>
-	<?php
-		foreach ($logInfo['log'] as $k => $i) :
+		echo "<thead>";
+		echo "<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>";
+		echo "</thead>";
+		echo "<tbody>";
+		foreach ($logInfo['log'] as $k => $i) {
 			$i += array('error' => '');
 			if (!empty($i['params']) && is_array($i['params'])) {
 				$bindParam = $bindType = null;
@@ -65,11 +63,10 @@ if ($noLogs || isset($_forced_from_dbo_)):
 				$i['query'] .= " , params[ " . rtrim($bindParam, ', ') . " ]";
 			}
 			echo "<tr><td>" . ($k + 1) . "</td><td>" . h($i['query']) . "</td><td>{$i['error']}</td><td style = \"text-align: right\">{$i['affected']}</td><td style = \"text-align: right\">{$i['numRows']}</td><td style = \"text-align: right\">{$i['took']}</td></tr>\n";
-		endforeach;
-	?>
-	</tbody></table>
-	<?php
-	endforeach;
-else:
+		}
+		echo '</tbody></table>';
+	}
+} else {
 	echo '<p>Encountered unexpected $logs cannot generate SQL log</p>';
-endif;
+}
+?>

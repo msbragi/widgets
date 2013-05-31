@@ -22,17 +22,20 @@
 <head>
 <?php echo $this->Html->charset(); ?>
 <title><?php echo $page_title; ?></title>
-
-<?php if (Configure::read('debug') == 0) { ?>
-<meta http-equiv="Refresh" content="<?php echo $pause; ?>;url=<?php echo $url; ?>"/>
-<?php } ?>
-<style><!--
+<?php
+	if (Configure::read('debug') == 0) {
+		echo $this->Html->meta(array('http-equiv' => 'Refresh', 'content' => "{$pause};url={$url}"));
+	}
+?>
+<style>
+<!--
 P { text-align:center; font:bold 1.1em sans-serif }
 A { color:#444; text-decoration:none }
 A:HOVER { text-decoration: underline; color:#44E }
---></style>
+-->
+</style>
 </head>
 <body>
-<p><a href="<?php echo $url; ?>"><?php echo $message; ?></a></p>
+<p><?php echo $this->Html->link($message, $url, array('escape' => 'false')); ?></p>
 </body>
 </html>
