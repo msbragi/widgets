@@ -1,6 +1,3 @@
-<?php
-$baseUrl = Router::url('/');
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,26 +16,38 @@ $baseUrl = Router::url('/');
 	echo $this->AssetCompress->css('print.css', array(' media' => 'print'));
 	?>
 	<!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseUrl; ?>js/bootstrap/font-awesome-ie7.min.css" />
+		<?php echo $this->Html->css('../js/bootstrap/font-awesome-ie7.min.css'); ?>
 	<![endif]-->
 
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseUrl; ?>js/jQuery/css/jquery.ui.1.10.2.ie.css" />
+		<?php echo $this->Html->css('../js/jQuery/css/jquery.ui.1.10.2.ie.css'); ?>
 	<![endif]-->
 
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<?php echo $this->AssetCompress->script('standard.js'); ?>
+
 	<?php
-	echo $this->AssetCompress->script('standard.js');
-	echo $this->AssetCompress->script('gmap3.js');
+	if(isset($useGmap)) {
+		if(!is_array($useGmap)) {
+			$useGmap = array();
+		}
+		$useGmap = array_merge(array('url' => 'http://maps.google.com/maps/api/js', 'sensor'  => 'false','library' => ''), $useGmap);
+		$gmapUrl = $useGmap['url'] . "?sensor=" . $useGmap['sensor'] . "&library=" . $useGmap['library'];
+		echo $this->Html->script($gmapUrl);
+		echo $this->AssetCompress->script('gmap3.js');
+	}
 	?>
 	<!--[if lt IE 9]>
 		<?php echo $this->Html->script('http://html5shim.googlecode.com/svn/trunk/html5.js'); ?>
 	<![endif]-->
-
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $baseUrl;?>img/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $baseUrl;?>img/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $baseUrl;?>img/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="<?php echo $baseUrl;?>img/ico/apple-touch-icon-57-precomposed.png">
+	<?php
+		echo $this->Html->meta(array('rel' => 'apple-touch-icon-precomposed', 'sizes' => '144x144', 'link' => '/img/ico/apple-touch-icon-144-precomposed.png'));
+		echo $this->Html->meta(array('rel' => 'apple-touch-icon-precomposed', 'sizes' => '114x114', 'link' => '/img/ico/apple-touch-icon-114-precomposed.png'));
+		echo $this->Html->meta(array('rel' => 'apple-touch-icon-precomposed', 'sizes' => '72x72', 'link' => '/img/ico/apple-touch-icon-72-precomposed.png'));
+		echo $this->Html->meta(array('rel' => 'apple-touch-icon-precomposed', 'link' => '/img/ico/apple-touch-icon-57-precomposed.png'));
+	?>
+<style>
+img { max-width: none !important; } /* Google map twitter bootstrap hack */
+</style>
 </head>
 <body data-twttr-rendered="true">
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -70,17 +79,8 @@ $baseUrl = Router::url('/');
 		<?php //echo $this->element('sql_dump'); ?>
 	</div>
 	<?php
-	$javascript = $this->fetch('javascript');
-	$jquery     = $this->fetch('jquery');
-	$okJs       = ($javascript || $jquery);
-	if($okJs) {
-		echo '\n<script type="text/javascript">\n';
-		echo $javascript;
-		echo "\n\$(function() {\n";
-		echo $jquery;
-		echo "\n});\n";
-		echo '\n</script>';
-	}
+		echo $scripts_for_layout;
+		echo $this->Js->writeBuffer(array('cache' => true, 'onDomReady' => true, 'safe' => false));
 	?>
 	</body>
 </html>
