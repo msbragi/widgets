@@ -37,8 +37,10 @@ class AppController extends Controller {
 	);
 
 	function beforeFilter() {
-		//$this->Authake->beforeFilter($this);
-		$this->set('menu', $this->getMenu('MainMenu', false));
+		if(!$this->RequestHandler->isAjax()) {
+			$this->Authake->beforeFilter($this);
+			$this->set('menu', $this->getMenu('MainMenu', false));
+		}
 	}
 
 	function getMenu( $menuname, $showParent = false ) {

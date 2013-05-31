@@ -5,8 +5,8 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'joomla',
-		'password' => 'joomla',
+		'login' => 'login',
+		'password' => 'password',
 		'database' => 'mysql',
 		'prefix' => '',
 		'encoding' => 'utf8',
@@ -30,7 +30,20 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'prefix'     => ''
 	);
-
+/*
+	public $oracle = array(
+		'datasource' => 'Database/Oracle',
+		'persistent' => false,
+		'host'       => 'oracleDB',
+		'port'       => '1521',
+		'instance'   => 'XE',
+		'login'      => 'test',
+		'password'   => 'test',
+		'prefix'     => '',
+		// 'connection_string' => '//localhost/XE',  /* Overides host, port, instance */
+		// 'database' => 'test_database_name', /* Not Yet supported */
+	);
+ */
 	function __construct() {
 		$this->authake2['database'] = APP .DS. 'SQLite' .DS. 'authake2.sqlite';
 		$this->cakemenu['database'] = APP .DS. 'SQLite' .DS. 'cakemenu.sqlite';
