@@ -29,7 +29,8 @@ class AppController extends Controller {
 		'RequestHandler',
 		'DebugKit.Toolbar'
 	);
-	var $helpers = array('Session', 'Time', 'Js', 'Authake.Authake', 'AssetCompress.AssetCompress',
+	var $helpers = array('Session', 'Time', 'Authake.Authake', 'AssetCompress.AssetCompress',
+			'Js'                => array('className' => 'NospaceJs'),
 			'Cakemenu.Cakemenu' => array('className' => 'Cakemenu.Strapmenu'),
 			'Paginator'         => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
 			'Html'              => array('className' => 'TwitterBootstrap.BootstrapHtml'),
