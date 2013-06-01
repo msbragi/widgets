@@ -11,17 +11,14 @@
 <?php $this->end(); ?>
 <div id='map' style='width:100%; height:600px'></div>
 
-<?php $this->start('myscript'); ?>
-
-	// google.maps.visualRefresh = true;
-	$("#map").gmap3({
-		map: {
-			options: {
-				zoom: 17,
-				center: [43.463214, 11.878231]
-			}
+<?php $this->start('jquery-block'); ?>
+// google.maps.visualRefresh = true;
+$("#map").gmap3({
+	map: {
+		options: {
+			zoom: 17,
+			center: [43.463214, 11.878231]
 		}
-	});
-
+	}
+});
 <?php $this->end(); ?>
-<?php $this->Js->buffer($this->fetch('myscript')); ?>

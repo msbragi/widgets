@@ -80,7 +80,10 @@ img { max-width: none !important; } /* Google map twitter bootstrap hack */
 	</div>
 	<?php
 		echo $scripts_for_layout;
-		echo $this->Js->writeBuffer(array('cache' => true, 'onDomReady' => true, 'safe' => false));
+		$this->Js->buffer("\n//--> jquery-block START");
+		$this->Js->buffer($this->fetch('jquery-block'));
+		$this->Js->buffer("//--> jquery-block END\n");
+		echo $this->Js->writeBuffer(array('type' => 'text/javascript', 'cache' => true, 'folder' => 'asset', 'onDomReady' => true, 'safe' => false));
 	?>
 	</body>
 </html>
