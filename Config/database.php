@@ -40,8 +40,8 @@ class DATABASE_CONFIG {
 		'login'      => 'test',
 		'password'   => 'test',
 		'prefix'     => '',
-		// 'connection_string' => '//localhost/XE',  /* Overides host, port, instance */
-		// 'database' => 'test_database_name', /* Not Yet supported */
+		// 'connection_string' => '//localhost/XE',  // Overides host, port, instance
+		// 'database' => 'test_database_name',       // Not Yet supported 
 	);
  */
 	function __construct() {
