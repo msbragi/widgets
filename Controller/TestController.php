@@ -3,6 +3,10 @@ class TestController extends AppController {
 	var $name = "Test";
 	var $uses = array();
 
+	function beforeFilter() {
+		return true;
+	}
+	
 	function index() {
 
 	}
